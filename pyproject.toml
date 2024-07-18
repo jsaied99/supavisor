@@ -1,10 +1,12 @@
 [tool.poetry]
 name = "supavisor"
-version = "0.0.1"
+version = "0.1.0"
 description = "A simple library for interacting with a Supavisor Instance"
 authors = ["Jamal Saied <jsaied99@gmail.com>"]
 readme = "README.md"
 packages = [{ include = "supavisor" }]
+repository = "https://github.com/jsaied99/supavisor"
+license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.11"
